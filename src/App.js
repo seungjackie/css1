@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import img from "./img/1.png";
+import img2 from "./img/2.png";
 
 function App() {
   return (
@@ -8,7 +9,11 @@ function App() {
       <div className="container">
         <div className="top-banner">
           <div className="toss">
-            <h1>toss</h1>
+            <h1>
+              {" "}
+              <img src={img2} width="30px" />
+              toss
+            </h1>
           </div>
           <div className="menu">앱 다운로드</div>
           <div className="menu2">삼선 메뉴</div>
@@ -26,10 +31,14 @@ function App() {
         </div>
 
         <div className="second-container">
-          <div className="pay-small1">평생 무료 송금</div>
+          <div className="pay-small1">
+            <h2>평생 무료 송금</h2>
+          </div>
           <div className="pay-small2">
-            토스 평생 무료송금으로 <br />
-            모두의 귬으에 자유를
+            <h3>
+              토스 평생 무료송금으로 <br />
+              모두의 금융에 자유를
+            </h3>
           </div>
           <div className="pay-small3">
             누구에게 보내든 은행 상관 없이, <br />
