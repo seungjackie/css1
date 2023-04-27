@@ -13,7 +13,6 @@ function App() {
           <div className="menu">앱 다운로드</div>
           <div className="menu2">삼선 메뉴</div>
         </div>
-        <hr />
         <div className="frist-container">
           <div className="pay1">
             <h2>송금</h2>
