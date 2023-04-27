@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import img from "./img/1.png";
 
 function App() {
   return (
@@ -12,11 +13,16 @@ function App() {
           <div className="menu">앱 다운로드</div>
           <div className="menu2">삼선 메뉴</div>
         </div>
+        <hr />
         <div className="frist-container">
-          <div className="pay1">송금</div>
+          <div className="pay1">
+            <h2>송금</h2>
+          </div>
           <div className="pay2">
-            간편하고 안전하게 <br /> 수수료는 평생 무료로, <br /> 이런 송금
-            써보셨나요?
+            <h2>
+              간편하고 안전하게 <br /> 수수료는 평생 무료로, <br /> 이런 송금
+              써보셨나요?
+            </h2>
           </div>
         </div>
 
@@ -31,11 +37,13 @@ function App() {
             이제 토스와 함꼐 수수료 걱정없이 송금하세요.
           </div>
           <div className="box">
-            <div>화살표</div>
+            <img src={img} />
             <div>
               김토스님에게 <br /> 50,000원을 보냈어요
             </div>
-            <div>수수료는 토스가 냈어요!</div>
+            <div>
+              <p>수수료는 토스가 냈어요!</p>
+            </div>
           </div>
         </div>
       </div>
