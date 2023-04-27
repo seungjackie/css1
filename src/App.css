@@ -32,7 +32,6 @@
 
 .toss {
   flex-grow: 6;
-
   font-size: 20px;
 }
 
@@ -49,6 +48,11 @@
 .menu2 {
   flex-grow: 1;
   text-align: center;
+}
+
+.menu2 button {
+  border: none;
+  background-color: white;
 }
 
 .frist-container {

@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import img from "./img/1.png";
 import img2 from "./img/2.png";
+import img3 from "./img/3.png";
 
 function App() {
   return (
@@ -16,7 +17,12 @@ function App() {
             </h1>
           </div>
           <div className="menu">앱 다운로드</div>
-          <div className="menu2">삼선 메뉴</div>
+          <div className="menu2">
+            <button onClick={() => console.log("삼선메뉴")}>
+              {" "}
+              <img src={img3} width="50px" />{" "}
+            </button>
+          </div>
         </div>
         <div className="frist-container">
           <div className="pay1">
